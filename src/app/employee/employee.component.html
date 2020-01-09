@@ -1,0 +1,17 @@
+<p>employee works!</p>
+<h1 style="color: green;">Employee Details</h1><table align="center">
+    <tr>
+        <td>ID</td><td>NAME</td>
+    </tr>
+    <tr *ngFor="let employee of employees ">
+
+         <td>{{employee.empId}}</td>
+        <td>{{employee.empName}}</td>
+
+        <td>{{employee.id}}</td>
+        <td>{{employee.title}}</td>
+        {{errmsg}}
+        
+
+    </tr>
+</table>

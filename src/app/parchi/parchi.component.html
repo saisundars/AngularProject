@@ -1,0 +1,7 @@
+<p>parchi works!</p>
+<h2 style="text-align:center ">parent comonent</h2>
+<!-- <child [uname]="username"></child> parent to child -->
+
+<!-- child to parent -->
+<div>{{childData}}</div>
+<child [uname]="username" (notify)="parentMethod($event)"></child>
